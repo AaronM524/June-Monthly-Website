@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/train1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -19,14 +19,11 @@ body {
   justify-content: soace-between;
 }
 
-.logo {
-  font-size: 35px;
-  color: #fff;
-}
+
 
 img {
   width: 75px;
-  height: 20%;
+  height: 100%;
 }
 
 .navbar-menu a {
@@ -104,3 +101,12 @@ img {
   transition: 0.4s;
 }
 
+.logo1 {
+  height: 250px;
+  width: 250px;
+  margin: -100px;
+}
+
+.margin-left-5 {
+  margin-left: 50px;
+}
