@@ -110,3 +110,11 @@ img {
 .margin-left-5 {
   margin-left: 50px;
 }
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: ''
+}
