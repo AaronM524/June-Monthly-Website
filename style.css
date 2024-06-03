@@ -16,7 +16,7 @@ body {
   padding: 20px 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: soace-between;
 }
 
 
@@ -101,20 +101,21 @@ img {
   transition: 0.4s;
 }
 
-.logo1 {
+.logo {
   height: 250px;
   width: 250px;
   margin: -100px;
 }
 
-.margin-left-5 {
-  margin-left: 50px;
-}
 
 
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: ''
+img {
+  width: 75px;
+  height: 20%;
 }
+
+@media screen and (min-width: 932px){
+  .logo {
+    justify-content: center;
+  }
+  }

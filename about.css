@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-color: #f2f2f2;
+    background-color: burlywood;
 }
 .heading {
     width: 90%;
@@ -133,4 +133,35 @@ body {
     .abtsection {
         border: orange;
         border-style: solid;
+        margin-bottom: 50px;
     }
+
+    .container-1 {
+        max-width: 1300px;
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo1 {
+        height: 250px;
+        width: 250px;
+        margin: -100px;
+      }
+      .navbar-menu a {
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        padding: 12px 15px;
+        border-radius: 2px;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.4s;
+      }
+      
+      .navbar-menu a:hover {
+        background-color: rgb(226, 156, 24);
+        color: #000;
+      }
