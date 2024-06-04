@@ -1,11 +1,11 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif; 
   box-sizing: border-box;
 }
 body{
-  background: #1e1f21;
+background: grey;
   color: #fff;
 }
 .wrapper{
@@ -20,11 +20,11 @@ body{
   grid-gap: 40px;
   margin-top: 50px;
 }
-.box{
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+.box {
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 }
 .box img{
   width: 100%;
@@ -32,45 +32,78 @@ body{
   display: block;
   transition: transform 0.5s;
 }
-.overlay{
-  height: 0;
-  width: 100%;
-  background: linear-gradient(transparent,#f79131 100%);
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 40px;
-  text-align: center;
-  font-size: 14px;
-  transition: height 0.5s;
+.overlay {
+width: 100%;
+height: 0;
+background: linear-gradient(transparent,#1c1c1c 58%);
+border-radius: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+transition: height 0.5s;
 }
-.overlay h3{
-  font-weight: 500;
-  margin-bottom: 5px;
-  margin-top: 80%;
-  font-family: bebas neue;
-  font-size: 30px;
-  letter-spacing: 2px;
+.overlay h3 {
+font-weight: 500;
+margin-bottom: 5px;
+margin-top: 80%;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
 }
-.overlay a{
-  margin-top: 10px;
-  color: #262626;
-  text-decoration: none;
-  font-size: 14px;
-  background: #fff;
-  border-radius: 50px;
-  text-align: center;
-  padding: 5px 15px;
+.overlay a {
+margin-top: 10px;
+color: #262626;
+text-decoration: none;
+font-size: 14px;
+background: #fff;
+border-radius: 50px;
+text-align: center;
+padding: 5px 15px;
 }
-.boxLhover img{
-  transform: scale(1.2);
+.box:hover img{
+  transform: scale(1.1);
 }
 .box:hover .overlay{
   height: 100%;
+}
+
+navbar-menu a {
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navbar-menu a:hover {
+  background-color: rgb(226, 156, 24);
+  color: #000;
+}
+
+.logo {
+  height: 250px;
+  width: 250px;
+  margin: -100px;
+}
+
+
+.container {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: soace-between;
 }
