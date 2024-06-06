@@ -4,9 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body {
-    background-color: burlywood;
+.body1 {
+background-color: #666;
 }
+
 .heading {
     width: 90%;
     display: flex; 
@@ -19,9 +20,11 @@ body {
 
 .heading h1{
     font-size: 50px;
-    color: #000; 
+    color: #ffffff; 
     margin-bottom: 25px;
     position: relative;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .heading h1::after{
@@ -72,14 +75,21 @@ body {
     flex: 1;
 }
 .about-content h2{
-    font-size: 23px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
     margin-bottom: 15px;
-    color: #333;
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .about-content p{
-    font-size: 18px; 
+    font-size: 24px; 
     line-height: 1.5;
-    color: #666;
+    color: orange;
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .about-content .read-more {

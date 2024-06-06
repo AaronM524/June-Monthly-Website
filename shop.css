@@ -88,10 +88,39 @@ navbar-menu a {
   transition: 0.4s;
 }
 
+.container {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: soace-between;
+}
+
+
+
+img {
+  width: 75px;
+  height: 100%;
+}
+
+.navbar-menu a {
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
 .navbar-menu a:hover {
   background-color: rgb(226, 156, 24);
   color: #000;
 }
+
 
 .logo {
   height: 250px;
@@ -100,10 +129,6 @@ navbar-menu a {
 }
 
 
-.container {
-  max-width: 1300px;
-  padding: 20px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: soace-between;
-}
+
+
+
