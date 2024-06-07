@@ -133,6 +133,12 @@ textarea{
   height: 20%;
 }
 
+.contact-logo {
+    margin: -5%;
+    width: 15%;
+}
+
+
 .navbar-menu a {
   color: #fff;
   font-size: 13px;
@@ -152,14 +158,5 @@ textarea{
   color: #000;
 }
 
-.logo {
-  height: 250px;
-  width: 250px;
-  margin: -100px;
-}
 
 
-img {
-    width: 75px;
-    height: 20%;
-  }
