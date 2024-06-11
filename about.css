@@ -175,3 +175,7 @@ background-color: #666;
         background-color: rgb(226, 156, 24);
         color: #000;
       }
+
+      .navbar-menu {
+        margin-left: 50px;
+      }
