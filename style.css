@@ -11,21 +11,6 @@ body {
   background-size: cover;
 }
 
-.container {
-  max-width: 1300px;
-  padding: 20px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: soace-between;
-}
-
-
-
-img {
-  width: 75px;
-  height: 100%;
-}
-
 .navbar-menu a {
   color: #fff;
   font-size: 13px;
@@ -42,6 +27,28 @@ img {
 .navbar-menu a:hover {
   background-color: rgb(226, 156, 24);
   color: #000;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.logo {
+  height: 250px;
+  width: 250px;
+  margin: -100px;
+}
+
+
+
+.navbar-menu {
+  margin-left: 50px;
 }
 
 .description {

@@ -1,6 +1,6 @@
 const teamMembers = [
   {
-    Toy: 'Boat',
+    Toy: 'Wooden Boat',
     img: 'images/boat.png',
     sport: 'Basketball',
     skills: ['Spped', 'Agility', 'Shooting'],
@@ -10,8 +10,8 @@ const teamMembers = [
       'Akron, Ohio, U.S. Individually, James is the all-time leading scorer in NBA history and ranks fourth in career assists, has won four Most Valuable Player (MVP) Awards, four Finals MVP Awards, three All-Star Game MVP Awards, and was named the inaugural NBA Cup MVP.'
   },
   {
-      Toy: 'Bronny James',
-      img: 'images/bronnyjames.png',
+      Toy: 'Wooden Car',
+      img: 'images/car1.jpg',
       sport: 'Basketball',
       skills: ['Athleticism', 'Shooting', 'Dribbling'],
       strengths: 'Defensive Ability',
@@ -20,8 +20,8 @@ const teamMembers = [
         "Bronny James played college basketball for the USC Trojans. A consensus four-star recruit, James was named a McDonald's All-American as a senior in high school in 2023. He is the eldest child of professional basketball player LeBron James."
     },
     {
-      Toy: 'Bryce James',
-      img: 'images/brycejames.jpeg',
+      Toy: 'Wooden Train',
+      img: 'images/train7.jpg',
       sport: 'Basketball',
       skills: ['Shooting', 'Guarding', 'Dribbling'],
       strengths: 'Shooting Ability',
@@ -31,7 +31,7 @@ const teamMembers = [
     },
     {
       Toy: 'Lionel Messi',
-      img: 'images/messi.jpg',
+      img: 'images/plane2.jpg',
       sport: 'Soccer',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       strengths: 'Ball control',
@@ -41,7 +41,7 @@ const teamMembers = [
     },
     {
       Toy: 'Cristiano Ronaldo',
-      img: 'images/ronaldo.webp',
+      img: 'images/puppy.jpg',
       sport: 'Soccer',
       skills: ['Dribbling', 'Spped', 'Shooting'],
       strengths: 'Chop',
@@ -51,7 +51,7 @@ const teamMembers = [
     },
     {
       Toy: 'Neymar',
-      img: 'images/neymar.webp',
+      img: 'images/block2.jpg',
       sport: 'Soccer',
       skills: ['Dribbling', 'Passing', 'Shooting'],
       strengths: 'Ball control',

@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="contact.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
 </head>
-    <nav class="navbar">
-    <div class="container">
-      <img class="contact-logo" src="images/Alternate Logo 2.png">
-      <div class="navbar-menu">
-        <a class="nav-btn" href="index.html">Home</a>
-        <a class="nav-btn" href="about.html">About</a>
-        <a class="nav-btn" href="shop.html">Shop</a>
-        <a class="nav-btn" href="contact.html">Contact</a>
-      </div>
-    </div>
-  </nav>
 <body>
-	<div class="container">
-		<div class="contact-box">
-			<div class="left"></div>
-			<div class="right">
-				<h2>Contact Us</h2>
-				<input type="text" class="field" placeholder="Your Name">
-				<input type="text" class="field" placeholder="Your Email">
-				<input type="text" class="field" placeholder="Phone">
-				<textarea placeholder="Message" class="field"></textarea>
-				<button class="btn">Send</button>
-			</div>
-		</div>
-	</div>
+    <nav class="navbar-menu">
+        <div class="container">
+            <img class="contact-logo" src="images/Alternate Logo 2.png">
+            <div class="navbar-menu">
+                <a class="nav-btn" href="index.html">Home</a>
+                <a class="nav-btn" href="about.html">About</a>
+                <a class="nav-btn" href="shop.html">Shop</a>
+                <a class="nav-btn" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left">
+                <div class="company-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong> 42 Lebron Street, Toms River, NJ</p>
+                    <p><strong>Phone:</strong> +732-021-2033</p>
+                    <p><strong>Email:</strong> thelittlebird@gmail.com</p>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <form action="mailto:thelittlebird@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" class="field" placeholder="Your Name" required>
+                    <input type="email" name="email" class="field" placeholder="Your Email" required>
+                    <input type="text" name="phone" class="field" placeholder="Phone">
+                    <textarea name="message" placeholder="Message" class="field" required></textarea>
+                    <button type="submit" class="btn">Send Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

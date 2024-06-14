@@ -115,7 +115,7 @@ background-color: #666;
     text-decoration: underline;
     margin-bottom: 15px;
     color: rgb(255, 255, 255);
-    font-family: "DM Sans", sans-serif;
+    font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
 }
 .about-content p{
@@ -354,5 +354,5 @@ background-color: #666;
     }
     
     .read-more-label:hover {
-        background-color: #0056b3;
+        background-color: rgb(226, 158, 12);
     }
